@@ -1,3 +1,4 @@
+![python-json-load-loads-dump-dumps](https://user-images.githubusercontent.com/14333637/222081288-4a949d06-e55a-4902-b651-b97c3624b0ec.png)
 ## Python JSON conversion table
 
 | JSON 	        | Python| 

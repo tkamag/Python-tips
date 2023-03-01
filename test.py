@@ -12,6 +12,8 @@ python_data = {
         "gender": "male"
     }
 }
+
+print(type(python_data))
 # saving Python dictionary object to JSON file
 with open(f"{FILES_DIR}/json_data.json", "w") as file_stream:
     json.dump(python_data, file_stream)
