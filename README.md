@@ -1,7 +1,7 @@
 ## Python JSON conversion table
 
 | JSON 	        | Python| 
-|---------------|--------|
+|:--------------|:-------|
 | object       	| dict   |
 | array 	    | Number | 
 | string 	    | str 	 | 
