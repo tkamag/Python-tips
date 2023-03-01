@@ -54,6 +54,13 @@ In addition, the ``json`` module **can also be used to convert Python dictionari
 
 Overall, the ``json`` module makes it easy to work with JSON data in Python programming language.
 
+## Serializing Python Objects To JSON Format
+``Serialization`` is **translating a data structure into a format that can be stored, transmitted, and reconstructed later**. Applicable to Python, **serialization means that we will translate Python basic data types to JSON format**. The ``json`` module can convert Python dictionaries or lists objects into a JSON format (string).
+
+There’re two methods available in the Python ``json`` module to handle the serialization process:
+
+* [dump()](https://docs.python.org/3/library/json.html#json.dump) – converts Python object as a JSON **formatted stream** (usually used to save JSON data to the file)
+ [dumps()](https://docs.python.org/3/library/json.html#json.dumps) – converts Python object as a JSON **formatted string** (produces a [Python string ob](https://hands-on.cloud/python-the-most-commonly-used-string-operations/)ject which contains JSON data)
 
 ## Some usefull links
  * [Python JSON – Complete Tutorial](https://hands-on.cloud/python-json-module-examples/)
