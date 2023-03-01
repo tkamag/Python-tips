@@ -1,4 +1,16 @@
-# essai01
+## Python JSON conversion table
+
+| JSON 	        | Python| 
+|---------------|--------|
+| object       	| dict   |
+| array 	    | Number | 
+| string 	    | str 	 | 
+| number (int) 	| int 	 | 
+| number (real) | float  | 
+| true 	        | True 	 | 
+| false 	    | False  | 
+| null 	        | None 	 | 
+
 
 
 ## Some usefull links
