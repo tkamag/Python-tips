@@ -40,8 +40,8 @@ JSON format has several constraints:
     * **Null**   – empty object
 * Valid JSON object can’t contain other data types, for example, ``datetime``
 ## Some usefull links
+ * [Python JSON – Complete Tutorial](https://hands-on.cloud/python-json-module-examples/)
+ 
  * [Python JSON Parsing using json.load() and loads()](https://pynative.com/python-json-load-and-loads-to-parse-json/)
 
  * [JSON.DUMP(S) & JSON.LOAD(S)](https://www.bogotobogo.com/python/python-json-dumps-loads-file-read-write.php)
-
- * [Python JSON – Complete Tutorial](https://hands-on.cloud/python-json-module-examples/)
