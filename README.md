@@ -23,7 +23,22 @@ The syntax of JSON is straightforward. It is built on top of two simple structur
 }
 ````
 * An ordered list of values.
+````JSON
+{"name":"James","gender":"male","age":32}
+````
 
+## JSON Constraints
+JSON format has several constraints:
+
+* The ``name`` in ``name/value`` pairs must be defined as a string in double quotes ``(")``.
+* The ``value`` must be of the valid JSON data type:
+    * **String** – several plain text characters
+    * **Number** – an integer
+    * **Object** – a collection of JSON ``key/value`` pairs
+    * **Array**  – an ordered list of values
+    * **Boolean**– true or false
+    * **Null**   – empty object
+* Valid JSON object can’t contain other data types, for example, ``datetime``
 ## Some usefull links
  * [Python JSON Parsing using json.load() and loads()](https://pynative.com/python-json-load-and-loads-to-parse-json/)
 
