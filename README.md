@@ -45,11 +45,11 @@ JSON format has several constraints:
 > The ``JSON`` module **allows you to convert Python objects into JSON strings and back up again**. It also provides methods for loading and saving ``JSON`` files.
 
 In addition, the ``json`` module **can also be used to convert Python dictionaries into JSON objects**, it contains methods for processing JSON data, including the following operations: 
-* parsing, 
-* serializing, 
-* deserializing, 
-* encoding, 
-* decoding, and 
+* parsing
+* serializing
+* deserializing
+* encoding
+* decoding
 * pretty-printing. 
 
 Overall, the ``json`` module makes it easy to work with JSON data in Python programming language.
