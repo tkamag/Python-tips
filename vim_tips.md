@@ -21,6 +21,7 @@
 - dd    # Delete line
 ````
 ### Normal to Insert mode : Use i or I, a or A or o or O
+````sh
 - i     # Before cursor
 - I     # Before line
 
@@ -29,13 +30,15 @@
 
 - o     # New line below 
 - O     # New line above
-
+````
 ### Normal to Insert mode : Use v or V, or Ctl-v
+````sh
 - v     # By Character
 - V     # By line
 - Ctl-v # Visual block
-
+````
 ### Normal to Command line : Use : or / or ?
+````sh
 - :     # Execute command
 - /     # Search down
 - ?     # Search up
@@ -47,17 +50,20 @@
 - e     # Open file
 - new   # New buffer
 - sav   # Save the current buffer
-
+````
 ### Search
+````sh
 - /     # Search ahead
 - ?     # Search back
 - n     # Next match
-- N        # Previous Match (go back)
+- N     # Previous Match (go back)
 - s/the_word_we_are_searching_for/the_word_that_we_are_goint_to_replace_with/g
 - %s/the_word_we_are_searching_for/the_word_that_we_are_goint_to_replace_with/g # Remplace all the occurence
+````
 
 ### Configuration
+````sh
 ;set ruler
 ~/.vimrc
-
+````
 To paste line, tape in the command line set_paste and paste at the right location.
