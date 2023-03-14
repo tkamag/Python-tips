@@ -1,5 +1,5 @@
 ## Some VIM shortcuts
-
+````sh
 - ESC   # From Visual, Insert or Command line mode tape ESC to return to Nomrmal mode
 
 - h     # Move left
@@ -19,7 +19,7 @@
 - x     # Paste
 - x     # Delete character
 - dd    # Delete line
-
+````
 ### Normal to Insert mode : Use i or I, a or A or o or O
 - i     # Before cursor
 - I     # Before line
